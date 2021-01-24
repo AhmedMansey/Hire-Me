@@ -1,0 +1,65 @@
+body{
+    font-family: "Monaco", monospace;
+    background-color: rgb(248,248,248);
+    font-size: 16px;
+    margin: 0;
+
+}
+
+select{
+    margin-left:25%;
+    margin-right:25%;
+    text-align: justify;
+    width:50%;
+}
+.exp{
+    background-color: grey;
+    width: 90%;
+    text-align: center;
+    color: white;
+    padding: .8vw
+}
+
+.whitep{
+    background-color: white;
+    text-align: justify;
+}
+
+.uppernote{
+    background-color: dimgray;
+    color: white;
+    margin: 0;
+    font-size: 1.3vw;
+}
+
+.maintable{
+    background-color: grey;
+    width: 25%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#rcorners3 {
+  border-radius: 1.8vw;
+  background: url(https://img.freepik.com/free-photo/dark-grunge-style-scratched-metal-surface_1048-12951.jpg?size=626&ext=jpg);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: .65vw;
+  font-family: "Lucida Console", "Monaco", monospace;
+  color: white;
+  font-size: 4.5vw;
+  text-align: left;
+  margin-top: 1.25vw;
+  margin-bottom: 1.9vw;
+  margin-left: 5%;
+  width: 40vw;
+}
+
+.margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    font-size: 2.8vw;
+}

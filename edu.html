@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Education</title>
+    </head>
+    <body>
+        <p class="uppernote">this website is not for educational purposes only</p>
+        <div id="rcorners3">Hire ME Please</div>
+        <h3 class="exp margin">EDUCATION</h3>
+
+        <div id = "Ain" class="margin">
+            <strong style="color: navy"> Bachelor of Engineering(B.Sc)</strong><br>
+            <strong>Ain Shams University</strong><br>
+            (Department of Civil Engineering)<br>
+            <table>
+                <tr>
+                    <td>Specialization:</td>
+                    <td>Infrastructure(Roads and Airports)</td>
+                </tr>
+                <tr>
+                    <td>Grade:</td>
+                    <td>V.Good(Distinction Graduation)</td>
+                </tr>
+                <tr>
+                    <td>Awarded:</td>
+                    <td>June 2016</td>
+                </tr>
+            </table>
+        </div>
+        <div id = "AUC" class="margin">
+            <strong style="color: navy"> Professional Diploma in Project Management (PRMG)</strong><br>
+            <strong>American University in Cairo (AUC)</strong><br>
+            <table>
+                <tr>
+                    <td>Contents:</td>
+                    <td>International Standards (PMBOK)</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>Certified Cost Professional (CCP)</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>Contarcs</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>Budgeting and Financial Control</td>
+                </tr>
+                <tr>
+                    <td>Awarded:</td>
+                    <td>June 2019</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="btn-group margin" role="group" aria-label="Basic outlined example" style = "margin-top: 20px; margin-bottom: 20px;">
+  <button type="button" class="btn btn-outline-primary" id = "ain" style = "font-size: 1.5vw"><strong>Ain Shams University Transcript</strong></button>
+  <button type="button" class="btn btn-outline-primary" id = "Pmbok" style = "font-size: 1.5vw"><strong>Project Management International Standards</strong></button>
+  <button type="button" class="btn btn-outline-primary" id = "bid" style = "font-size: 1.5vw"><strong>Project Bids and Contracts</strong></button>
+  <button type="button" class="btn btn-outline-primary" id = "finan" style = "font-size: 1.5vw"><strong>Budgeting and Financial Control</strong></button>
+  <button type="button" class="btn btn-outline-primary" id = "csi" style = "font-size: 1.5vw"><strong>CSI Structure Analysis</strong></button>
+</div>
+
+<div id="shams" class="margin" style="display: none; margin-bottom: 20px;">
+  <img src = "https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/transcript.jpg" alt = "Trancript" width="100%">
+</div>
+<div id="bok" class="margin" style="display: none; margin-bottom: 20px;">
+  <img src = "https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/pmbok.jpg" alt = "PMBOK" width="100%">
+</div>
+<div id="contracts" class="margin" style="display: none; margin-bottom: 20px;">
+  <img src = "https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/bids.jpg" alt = "Bids and Contracts" width="100%">
+</div>
+<div id="budg" class="margin" style="display: none; margin-bottom: 20px;">
+  <img src = "https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/financial.jpg" alt = "Budgeting and Financial Control" width="100%">
+</div>
+<div id="structure" class="margin" style="display: none; margin-bottom: 20px;">
+  <img src = "https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/csi.png" alt = "CSI" width="100%">
+</div>
+
+<script>
+  document.querySelector('#ain').onclick = function(){
+    document.querySelector('#shams').style.display = 'block';
+    document.querySelector('#bok').style.display = 'none';
+    document.querySelector('#contracts').style.display = 'none';
+    document.querySelector('#budg').style.display = 'none';
+    document.querySelector('#structure').style.display = 'none';
+  }
+
+  document.querySelector('#Pmbok').onclick = function(){
+    document.querySelector('#shams').style.display = 'none';
+    document.querySelector('#bok').style.display = 'block';
+    document.querySelector('#contracts').style.display = 'none';
+    document.querySelector('#budg').style.display = 'none';
+    document.querySelector('#structure').style.display = 'none';
+  }
+
+  document.querySelector('#bid').onclick = function(){
+    document.querySelector('#shams').style.display = 'none';
+    document.querySelector('#bok').style.display = 'none';
+    document.querySelector('#contracts').style.display = 'block';
+    document.querySelector('#budg').style.display = 'none';
+    document.querySelector('#structure').style.display = 'none';
+  }
+
+  document.querySelector('#finan').onclick = function(){
+    document.querySelector('#shams').style.display = 'none';
+    document.querySelector('#bok').style.display = 'none';
+    document.querySelector('#contracts').style.display = 'none';
+    document.querySelector('#budg').style.display = 'block';
+    document.querySelector('#structure').style.display = 'none';
+  }
+
+  document.querySelector('#csi').onclick = function(){
+    document.querySelector('#shams').style.display = 'none';
+    document.querySelector('#bok').style.display = 'none';
+    document.querySelector('#contracts').style.display = 'none';
+    document.querySelector('#budg').style.display = 'none';
+    document.querySelector('#structure').style.display = 'block';
+  }
+</script>
+
+
+
+
+        <table style=" width: 90%; margin-left: 5%; margin-right:5%; margin-bottom: 10px;">
+            <tr>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/index.html" style="color: white">Overview</a></td>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/exp.html" style="color: white">Experience</a></td>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/edu.html" style="color: white">Education</a></td>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/personal.html" style="color: white">Personal Info</a></td>
+            </tr>
+    </body>
+</html>

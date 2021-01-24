@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Experience</title>
+    </head>
+    <body>
+        <p class="uppernote">this website is not for educational purposes only</p>
+        <div id="rcorners3">Hire ME Please</div>
+        <h3 class="exp margin">EXPERIENCE</h3>
+        <select name = "companies" id = "comps">
+            <option value="">
+                <strong>EuroConsult for Enginering Consultancy</strong></option>
+            <option value = "">
+                <strong>Mostafa Al-Baghdady for General Construction</strong>
+            </option>
+        </select>
+
+        <div id = "euro" style="display: block"><p class="whitep margin"><em>Ahmed</em> started working for <a href="https://euroconsult.com/">EuroConsult</a> on 30th Sept. 2018 as a full-stack civil engineer. He participated in all kinds task including but not limited to (<strong>Highway Design, Design Planning and Scheduling, Contracts Reviewing, Tenders Preparation and Quality Control</strong>. illustrated below are the projects where <em>Ahmed</em> had a major role in:</p>
+        <ul class="whitep margin">
+            <li><u><strong>North & South Jeddah Corridors</strong></u>, <strong>KSA</strong>; <em style="color: navy">Highway Designer</em> <strong style = "color: red">*</strong>; Preliminary, Detailed design and Packages production<strong style = "color: red">**</strong> for Urban roads of a total of 58 Km and 3 interchanges.</li>
+            <li><u><strong>Shwakah – Siji – Aloajily Road</strong></u>, <strong>UAE</strong>; <em style="color: navy">Highway Designer</em><strong style = "color: red">*</strong>; Preliminary design and packages production<strong style = "color: red">**</strong> for a 75 km Connector road passing through 6 villages in a mountainous area upto connection with highway road E102.<em style="color: navy"> Planning & Scheduling & Cost Estimate Engineer</em>; Preparation of Design and Construction time schedule, Bills of quantities and coordination with all disciplines.</li>
+            <li><u><strong>King Abdul Aziz Road Intersections</strong></u>, <strong>KSA</strong>; <em style="color: navy">Highway Designer</em><strong style = "color: red">*</strong>; Preliminary, Detailed design and packages production<strong style = "color: red">**</strong> for a 19 km. Major Arterial road including 8 flying U turns and a 3 level interchange. <em style="color: navy">Tender Engineer</em>; Assistance with the preparation of Tender documents.</li>
+            <li><u><strong>Reyadh Ring Road</strong></u>, <strong>KSA</strong>; <em style="color: navy">Highway Designer</em><strong style = "color: red">*</strong>; Geometric Detailed Design for a 45 Km. highway that includes (ins & outs, sleeve ramps, U turns and 10 grade separation interchanges).</li>
+            <li><u><strong>East Jeddah Corridor</strong></u>, <strong>KSA</strong>; <em style="color: navy">Highway Designer</em><strong style = "color: red">*</strong>; Detailed design and packages production for a 49 km corridor including 4 interchanges.</li>
+            <li><u><strong>Annajaf Al-Ashraf International Airport</strong></u>, <strong>Iraq</strong>; <em style="color: navy">Contracts Engineer</em>; Preparing Contractual documents for the new Runway and ancillary facilities using FIDIC general form of contracts. <em style="color: navy">Roads Designer</em>; Packages production for Patrol, Fire Fighting and Access roads supporting the New runway.</li>
+            <li><u><strong>KAAR underground Metro</strong></strong></u>, <strong>KSA</strong>; <em style="color: navy">Quality Control Engineer</em>; Coordination, Documentation and Quality review for IFC drawings. Preparation of deliverables time schedule, comments and progress sheets.</li>
+            <li><u><strong>Various Projects</strong></u>, <strong>Worldwide</strong>; <em style="color: navy">Business Developer</em>; Hunting over 50 REOIs and RFPs published in African, European and Arab banks regarding infrastructure projects. Preparation of technical and financial offers. Responsible for the Technical offers library and models of agreements log.</li>
+        </ul>
+        <p class="whitep margin"><strong style = "color: red">*</strong>Highway Design is based on Geometric Design Manuals, Traffic Calming Manuals, Pedestrian & Cyclist Design Manuals, Traffic Control Devices Manual such as: <strong>AASHTO, MUTCD, GDMDR, Abu Dhabi Traffic Control Manual, MOT and MOMRA</strong>.</p>
+        <p class="whitep margin"><strong style = "color: red">**</strong>Packages include but not limited to: Layout Plans, Survey Works, Service Plans, Expropriation Plans, Road Marking & Signage Plans, Standard Cross sections, Longitudinal Sections, Pavement Plans, Grading Plans, Construction Phasing, Diversions, Setting out plans and General Standard Drawings.</p>
+        </div>
+        <div id = "mbc" style="display: none"><p class="whitep margin"><em>Ahmed</em> started working for <a href="http://mbc-groups.net/constructions/index.php/company/about-us">Mostafa Al-Baghdady for General Construction (MBC)</a> on 10th feb. 2018 as a roads engineer. He participated in all kinds task including but not limited to (<strong>Highway Construction, Design Planning and Scheduling, Contracts Reviewing, Tenders Preparation and Technical office</strong>. illustrated below are the projects where <em>Ahmed</em> had a major role in:</p>
+        <ul class="whitep margin">
+            <li><u><strong>Rehabilitation and Extension of Talaat Harb main axis</strong></u>, <strong>New Cairo, Egypt</strong>; <em style="color: navy">Technical Office Roads Engineer</em>; Participated in the construction of a 13 Km. Axis including roundabouts and ramps. responsibilities include: Planning, Scheduling, Contracting, Procurement, Working drawings and preparation of Bills of quantities.</li>
+            <li><u><strong>Rehabilitation of Saad Zaghloul main axis</strong></u>, <strong>New Cairo, Egypt</strong>; <em style="color: navy">Roads Site Engineer</em><strong style = "color: red">*</strong>; Participated in the construction of a 17 km. axis. Responsibilities include: Coordination with the crew, Supervision over the equipment and Communication with Stakeholders.</li>
+        </ul>
+        <div style="text-align:center"><img src="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/Implementation%20Experience.jpg" alt="MBC Experience Certificate" width = "50%"></div>
+        </div>
+
+
+        <script>
+            let euro = document.querySelector('#euro');
+            let mbc = document.querySelector('#mbc');
+            document.querySelector('#comps').onchange = function() {
+                if (euro.style.display === 'block') {
+                    euro.style.display = 'none';
+                    mbc.style.display = 'block';
+                }
+                else {
+                    euro.style.display = 'block';
+                    mbc.style.display = 'none';
+                }
+                };
+        </script>
+
+
+
+
+        <table style=" width: 90%; margin-left: 5%; margin-right:5%; margin-bottom: 10px;">
+            <tr>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/index.html" style="color: white">Overview</a></td>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/exp.html" style="color: white">Experience</a></td>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/edu.html" style="color: white">Education</a></td>
+                <td class="maintable"><a href="https://c4b1b936-84a2-486b-bdc3-411610f5433a-ide.cs50.xyz:8080/personal.html" style="color: white">Personal Info</a></td>
+            </tr>
+    </body>
+</html>
